@@ -1,0 +1,25 @@
+
+.moviesimage {
+  width: 150px;
+  height: 190px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  /* border: 2px solid red; */
+  gap: 10px;
+}
+
+.trendingMovies {
+  /* margin: 20px; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  border: 2px solid red;
+  /* margin-left: 30px; */
+}
