@@ -13,5 +13,11 @@ export default defineConfig({
     rollupOptions: {
       external: ['@reduxjs/toolkit']
     }
-  }
+  },
+  build: {
+    rollupOptions: {
+      external: ['react-slick']
+    }
+  },
+  
 })
