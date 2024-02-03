@@ -8,5 +8,10 @@ export default defineConfig({
     rollupOptions: {
       external: ['axios']
     }
+  },
+  build: {
+    rollupOptions: {
+      external: ['@reduxjs/toolkit']
+    }
   }
 })
